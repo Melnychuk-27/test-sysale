@@ -1,0 +1,342 @@
+.cart__good {
+  width: 573px;
+  /* height: 707px; */
+  margin-left: 35px;
+  padding: 35.9px 31.5px 45px 30.8px;
+  border-radius: 25px;
+  background-color: #f8fafc;
+  
+}
+
+.cart__good:hover {
+  box-shadow: 0 4px 45px 0 #c3d4e4;
+  
+}
+
+.cart__head {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items:flex-start;
+
+}
+
+.cart__head-new {
+  display: flex;
+  flex-grow: 0;
+  margin-right: 58.4px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to top, #efbb37, #cf9e1f);
+  font-family: "SFUIDisplay";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+
+.cart__head-img{
+  width: 256px;
+  height: 261px;
+  margin-right: 84.3px;
+  border-radius: 27px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+
+.cart__head-img img:hover{
+  transform: scale(1.5);
+  /* transform: rotate(60deg); */
+}
+
+.cart__head-marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46.1px;
+  height: 46.1px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.cart__head-marker:hover {
+  background-color: #f9fafc;
+}
+
+.cart__body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.cart__body-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  object-fit: contain;
+  font-family: "SFUIDisplay";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c2c2c;
+}
+
+.cart__body-description {
+  margin-bottom: 20px;
+  font-family: "SFUIDisplay";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.cart__body-color-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15.8px;
+}
+
+.select{
+  width: 258px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.select__body-is-active{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  border-radius: 0 0 15px 15px;
+  overflow-y: scroll;
+  scroll-snap-type: x proximity;
+  padding-right: 20px;
+  background-color: #ffffff;
+  height: 117px;
+  z-index: 1;
+  border-radius: 0 0 15px 15px;
+  
+}
+
+.select__body{
+  display: none;
+}
+
+.select__header {
+  display: flex;
+  justify-content: space-between;
+  width: 258px;
+  padding: 8px 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.select__header-is-active {
+  justify-content: space-between;
+  display: flex;
+  width: 258px;
+  padding: 8px 20px;
+  background-color: #ffffff;
+  border-radius: 15px 15px 0 0;
+}
+
+.select__current{display: block;
+  font-family: "SFUIDisplay";
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.select__icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+}
+
+.select__icon-is-active{
+  transform: rotate(180deg);
+  transition: 0.5s;
+  
+}
+
+.select__item{
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2c2c;
+  padding: 12px 20px;
+}
+
+.select__item:hover{
+  background-color: #f3f8fc;
+  
+}
+
+.cart__price {
+  font-family: SFUIDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.cart__body-volume {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: baseline; */
+  margin-bottom: 25.8px ;
+  font-family: SFUIDisplay;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.custom-radio-btn {
+  position: relative; /* Родительский элемент*/
+  display: inline-block; /* Для применения рамок, размеров*/
+  width: 23.1px;
+  height: 22.6px;
+  background: #dedede;
+  border: none; /* Толщина, стиль, цвет рамки*/
+  border-radius: 5px; /* Получение круга*/
+  vertical-align:text-top; /* Выравнивание кнопки по центру*/
+  margin-right: 20px; /* Отступ между кнопкой и меткой*/
+  margin-bottom: 14.4px;
+}
+
+/* Рисуем внутренний круг */
+.custom-radio-btn::before {
+  content: '';
+  display: inline-block;
+  width: 17.4px;
+  height: 17px;
+  background-image: linear-gradient(to top, #efbb37, #cf9e1f);
+  border-radius: 5px;
+/* Выравниваем по центру относительно внешнего круга */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+/* Плавный переход трансформации масштабирования */
+  transition: 0.2s ease-in;
+}
+
+.real-radio-btn:checked + .custom-radio-btn::before {
+  transform: translate(-50%, -50%) scale(1);
+}    
+
+.real-radio-btn {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      position: absolute;
+}
+
+.cart__bottom {
+  display: flex;
+}
+.cart__buttons-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 31px;
+  width: 92px;
+  height: 39px;
+  border-radius: 30px;
+  background-color: #e2e9f0;
+
+}
+
+.cart__buttons-quantity:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #d8e3ee;
+}
+
+.cart__quantity {
+  width: 12px;
+  height: 23px;
+  flex-grow: 0;
+  margin: 0 1px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.cart__button-increment, .cart__button-decrement{
+  border: none;
+  font-size: 15px;
+  height: 100%;
+  width: 38px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+}
+
+.cart__buttons-buy {
+  width: 300px;
+  height: 39px;
+  padding: 9px 115px;
+  font-family: SFUIDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to top, #efbb37, #cf9e1f);
+}
+
+.cart__buttons-buy:hover {
+  background-image: linear-gradient(to top, #e9b32c, #bf911a);
+}
+
+.cart__buttons-buy-click {
+  width: 300px;
+  height: 39px;
+  padding: 9px 115px;
+  font-family: SFUIDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to top, #ffd773, #e2b645);
+}
+
